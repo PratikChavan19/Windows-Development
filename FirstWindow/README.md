@@ -105,17 +105,3 @@ This project helps understand:
 - Basic GUI programming in C
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## Future Enhancements
-
-- Handle keyboard input
-- Handle mouse events
-- Draw graphics using GDI
-- Display text using GDI
-- Add menus and custom icons
-- Implement fullscreen mode
-- Handle window resizing
-- Add timers and animations
-- Double buffering for smooth rendering
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
