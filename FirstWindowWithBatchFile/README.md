@@ -125,16 +125,3 @@ The application exits cleanly when the window is closed.
 - Automate compilation and linking using Windows batch scripts
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## Future Enhancements
-
-- Keyboard input handling
-- Mouse input handling
-- GDI graphics rendering
-- Custom icons and menus
-- Fullscreen mode
-- Window resizing support
-- Double buffering
-- Resource files (.rc)
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
