@@ -1,1 +1,1 @@
-To be added.
+Icon is added for the window which can be seen in Task bar, start menu and on left-top of window.
