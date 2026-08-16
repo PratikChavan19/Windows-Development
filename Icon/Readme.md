@@ -179,17 +179,3 @@ This project helps understand:
 * MSVC compilation and linking
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 
-
-## Future Enhancements
-
-* Add keyboard event handling
-* Add mouse event handling
-* Draw text using GDI
-* Add custom menus
-* Add buttons and controls
-* Add keyboard shortcuts
-* Handle window resizing
-* Add more Windows resources
-* Explore DLL and COM programming
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
