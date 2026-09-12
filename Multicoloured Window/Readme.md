@@ -1,1 +1,1 @@
-
+Added multiple colours to window using various event handlers.
