@@ -229,13 +229,3 @@ Potential improvements include:
 * Expanding the project into a more interactive Win32 application.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 👨‍💻 Author
-
-**Pratik Chavan**
-
-Software Engineer | C/C++ Developer | Windows Development Learner
-
-Exploring Windows API programming, system-level development, and software engineering through practical implementations.
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
