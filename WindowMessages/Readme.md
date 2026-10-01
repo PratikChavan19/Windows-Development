@@ -340,13 +340,3 @@ Potential extensions include:
 * Building a more interactive Win32 application
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 👨‍💻 Author
-
-**Pratik Chavan**
-
-Software Engineer | C/C++ Developer | Windows Development Learner
-
-Exploring Windows API programming, system-level development, and native application development through practical implementations.
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
