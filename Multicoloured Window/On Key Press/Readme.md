@@ -361,13 +361,3 @@ Some possible extensions include:
 * Add a color palette UI
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 👨‍💻 Author
-
-**Pratik Chavan**
-
-GitHub: [PratikChavan19](https://github.com/PratikChavan19)
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-⭐ This project is part of my **Windows Development learning journey**, focused on understanding native Windows programming using **C, Win32 API, and GDI**.
