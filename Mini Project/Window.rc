@@ -1,0 +1,4 @@
+#include "Window.h"
+
+GOAT_ICON ICON GokuIcon.ico
+GOAT_BIRTHDAY_MUSIC WAVE birthday.wav
