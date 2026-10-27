@@ -1,10 +1,12 @@
-# OnTimer ⏱️🌈
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# OnTimer ⏱️
 
 A Windows GUI application developed using **C and the Win32 API** to demonstrate timer-based event handling and dynamic background color changes.
 
 This project uses the Windows timer mechanism to periodically change the background color of a window, providing practical experience with `SetTimer()`, `WM_TIMER`, `WM_PAINT`, and Windows GDI.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📌 About the Project
 
@@ -28,7 +30,7 @@ After displaying all nine colors, the application returns to black and repeats t
 
 The user can press the **Escape key** to close the window.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ✨ Features
 
@@ -44,7 +46,7 @@ The user can press the **Escape key** to close the window.
 - Escape key support for closing the application
 - Proper timer management using `SetTimer()` and `KillTimer()`
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📚 Concepts Covered
 
@@ -87,7 +89,7 @@ The user can press the **Escape key** to close the window.
 - Windows data types and handles
 - Event-driven programming
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🔄 Application Workflow
 
@@ -133,7 +135,7 @@ WinMain()
                    └── PostQuitMessage()
 ```
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🪟 Window Creation
 
@@ -155,7 +157,7 @@ The window title is:
 SHIVA WinDev-2026 : First Window
 ```
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ⏱️ Timer Initialization
 
@@ -182,7 +184,7 @@ The arguments specify:
 
 When the timer expires, Windows posts a `WM_TIMER` message to the application's message queue.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🎨 Dynamic Background Color Changes
 
@@ -213,7 +215,7 @@ Inside the `WM_PAINT` handler, the application creates a solid brush correspondi
 
 After the white background, the flag resets to zero and the background returns to black. The sequence then repeats.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🔁 WM_TIMER – Handling Timer Events
 
@@ -252,7 +254,7 @@ In this application, it requests a repaint of the entire client area, causing Wi
 
 The `WM_PAINT` handler then uses the updated color flag to fill the background with the next color.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🖌️ WM_PAINT – Painting the Window
 
@@ -292,7 +294,7 @@ EndPaint(hwnd, &ps);
 
 This process allows the background color to update whenever the window is repainted.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ⌨️ Keyboard Event Handling
 
@@ -316,7 +318,7 @@ case WM_KEYDOWN:
 
 When the Escape key is pressed, `DestroyWindow()` destroys the window and initiates the normal window destruction process.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🛑 WM_DESTROY – Application Termination
 
@@ -332,7 +334,7 @@ case WM_DESTROY:
 
 `PostQuitMessage()` posts a quit message to the message queue, allowing the main message loop to terminate.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📋 Message Handling Summary
 
@@ -344,7 +346,7 @@ case WM_DESTROY:
 | `WM_KEYDOWN` | Detects the Escape key |
 | `WM_DESTROY` | Initiates application termination |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🧩 Important Win32 APIs
 
@@ -362,7 +364,7 @@ case WM_DESTROY:
 | `DestroyWindow()` | Destroys a window |
 | `PostQuitMessage()` | Requests termination of the message loop |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📂 Repository Structure
 
@@ -376,7 +378,7 @@ OnTimer/
 
 *The exact filenames may vary depending on the files included in the project.*
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🛠️ Technologies Used
 
@@ -388,7 +390,7 @@ OnTimer/
 - Visual Studio
 - Windows Desktop Application Development
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ▶️ Getting Started
 
@@ -415,7 +417,7 @@ cd Windows-Development/MulticolouredWindow/OnTimer
 - The color sequence repeats continuously.
 - Pressing **Escape** closes the window.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🎯 Learning Objectives
 
@@ -432,7 +434,7 @@ Through this project, I aim to:
 - Handle keyboard events in a Windows application.
 - Strengthen my understanding of native Windows development using C.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🚀 Future Enhancements
 
@@ -447,7 +449,7 @@ Possible improvements include:
 - Add user controls for selecting colors.
 - Explore timer-based animations using Windows GDI.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🤝 Contributions
 
@@ -455,13 +457,13 @@ This repository is primarily maintained as a personal learning and practice proj
 
 Suggestions, improvements, and alternative implementations are welcome.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ⭐ Support
 
 If you find this project useful for learning Windows development, consider giving the repository a star.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 👨‍💻 Author
 
@@ -472,3 +474,5 @@ Software Engineer | C++ | System Programming | Windows Development
 Passionate about systems programming, Windows development, software engineering, and continuous learning through practical implementation.
 
 > *"Learning Windows Development one program at a time."*
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
