@@ -464,15 +464,3 @@ Suggestions, improvements, and alternative implementations are welcome.
 If you find this project useful for learning Windows development, consider giving the repository a star.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 👨‍💻 Author
-
-**Pratik Chavan**
-
-Software Engineer | C++ | System Programming | Windows Development
-
-Passionate about systems programming, Windows development, software engineering, and continuous learning through practical implementation.
-
-> *"Learning Windows Development one program at a time."*
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
