@@ -1,10 +1,10 @@
-# OnTimerWithMusic 🎵⏱️🌈
+# OnTimerWithMusic 
 
 A Windows GUI application developed using **C, the Win32 API, and Windows Multimedia APIs** to demonstrate timer-based event handling, dynamic background color changes, and asynchronous music playback.
 
 This project extends the basic timer-based window application by combining periodic color transitions with looping music, providing practical experience with Windows message handling, GDI rendering, and multimedia integration.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📌 About the Project
 
@@ -28,7 +28,7 @@ After displaying all nine colors, the application returns to black and repeats t
 
 Music starts when the window is created and continues looping asynchronously while the application is running. Pressing the **Escape key** closes the window and stops the music.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ✨ Features
 
@@ -47,7 +47,7 @@ Music starts when the window is created and continues looping asynchronously whi
 - Timer management using `SetTimer()` and `KillTimer()`
 - Multimedia handling using `PlaySound()`
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📚 Concepts Covered
 
@@ -99,7 +99,7 @@ Music starts when the window is created and continues looping asynchronously whi
 - Windows data types and handles
 - Event-driven programming
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🔄 Application Workflow
 
@@ -147,7 +147,7 @@ WinMain()
                    └── PostQuitMessage()
 ```
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🪟 Window Creation
 
@@ -169,7 +169,7 @@ SHIVA WinDev-2026 : First Window
 
 The application uses the standard Win32 message loop to receive and dispatch Windows messages to `WndProc()`.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🎵 Music Playback
 
@@ -226,7 +226,7 @@ The arguments specify:
 
 When the timer expires, Windows posts a `WM_TIMER` message to the application's message queue.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🌈 Dynamic Background Color Changes
 
@@ -257,7 +257,7 @@ The application creates a solid brush corresponding to the current flag and uses
 
 After the white background, the flag resets to zero and the background returns to black. The color cycle then repeats continuously.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🔁 WM_TIMER – Handling Timer Events
 
@@ -294,7 +294,7 @@ SetTimer(hwnd, SHIVA_TIMER, 1000, NULL);
 
 The application invalidates the entire client area, allowing Windows to schedule a `WM_PAINT` message. The painting handler then uses the updated color flag to display the next background color.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🖌️ WM_PAINT – Painting the Window
 
@@ -334,7 +334,7 @@ EndPaint(hwnd, &ps);
 
 This allows the application to update the background whenever a repaint is requested.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ⌨️ Keyboard Event Handling
 
@@ -358,7 +358,7 @@ case WM_KEYDOWN:
 
 When Escape is pressed, `DestroyWindow()` destroys the window and initiates the application's window destruction process.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🛑 WM_DESTROY – Stopping Music and Terminating the Application
 
@@ -380,7 +380,7 @@ PostQuitMessage(0);
 
 This ensures that the looping music stops when the application window is closed.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📋 Message Handling Summary
 
@@ -392,7 +392,7 @@ This ensures that the looping music stops when the application window is closed.
 | `WM_KEYDOWN` | Detects the Escape key |
 | `WM_DESTROY` | Stops music and initiates application termination |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🧩 Important Windows APIs
 
@@ -411,7 +411,7 @@ This ensures that the looping music stops when the application window is closed.
 | `DestroyWindow()` | Destroys a window |
 | `PostQuitMessage()` | Requests termination of the message loop |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📂 Repository Structure
 
@@ -426,7 +426,7 @@ OnTimerWithMusic/
 
 The application requires the resource definition and embedded audio resource associated with `GOAT_BIRTHDAY_MUSIC`. The exact resource filenames depend on the project configuration.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🛠️ Technologies Used
 
@@ -439,7 +439,7 @@ The application requires the resource definition and embedded audio resource ass
 - Visual Studio
 - Windows Desktop Application Development
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ▶️ Getting Started
 
@@ -477,7 +477,7 @@ If building with a different toolchain, configure the linker to include the appr
 - Nine colors are displayed in sequence before the cycle repeats.
 - Pressing **Escape** closes the window and stops the music.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🎯 Learning Objectives
 
@@ -495,7 +495,7 @@ Through this project, I aim to:
 - Handle keyboard input and application termination.
 - Explore the interaction between timers, multimedia playback, and the Windows message loop.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🚀 Future Enhancements
 
@@ -512,7 +512,7 @@ Possible improvements include:
 - Improve resource and timer cleanup.
 - Explore more advanced Windows multimedia APIs.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🤝 Contributions
 
@@ -520,20 +520,10 @@ This repository is primarily maintained as a personal learning and practice proj
 
 Suggestions, improvements, and alternative implementations are welcome.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ⭐ Support
 
 If you find this project useful for learning Windows development, consider giving the repository a star.
 
----
-
-## 👨‍💻 Author
-
-**Pratik Chavan**
-
-Software Engineer | C++ | System Programming | Windows Development
-
-Passionate about systems programming, Windows development, software engineering, and continuous learning through practical implementation.
-
-> *"Learning Windows Development one program at a time."*
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
