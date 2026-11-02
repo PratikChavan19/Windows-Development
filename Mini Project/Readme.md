@@ -1,10 +1,12 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Win32 Birthday Animation 🎂🎉
 
 An interactive Windows GUI mini project developed using **C, Win32 API, and Windows GDI**. This application demonstrates graphical rendering, circle animation, keyboard and mouse interaction, timer-based movement, and multimedia integration.
 
 The project creates a birthday-themed window featuring a lemon-yellow circle with the message **"Happy Birthday Win32"** against a lavender background. Users can control the circle through keyboard shortcuts, move it using the mouse pointer, trigger horizontal and vertical animations, and play or stop background music.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📌 About the Project
 
@@ -22,7 +24,7 @@ The application provides different interaction modes:
 
 The application uses Windows messages to process keyboard input, mouse interactions, timer events, and painting operations.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ✨ Features
 
@@ -42,7 +44,7 @@ The application uses Windows messages to process keyboard input, mouse interacti
 - Dynamic window resizing support
 - Windows GDI-based rendering
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🎮 Keyboard Controls
 
@@ -60,7 +62,7 @@ The application supports the following keyboard shortcuts:
 
 **Note:** Horizontal and vertical animation controls work when animation is active. The `A` key toggles the animation state, while `H` and `V` select the animation direction.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📚 Concepts Covered
 
@@ -123,7 +125,7 @@ The application supports the following keyboard shortcuts:
 - Embedded audio resources
 - Asynchronous music playback
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🔄 Application Workflow
 
@@ -173,7 +175,7 @@ WinMain()
             └── WM_DESTROY
 ```
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🎨 Graphical Interface
 
@@ -264,7 +266,7 @@ static BOOL bVerticalAnimation = FALSE;
 
 These flags determine which animation mode is active.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ⏱️ Timer Event Handling
 
@@ -298,7 +300,7 @@ case WM_TIMER:
 
 The `WM_PAINT` handler updates the circle's coordinates when animation is enabled and renders the updated position.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🖱️ Mouse-Controlled Circle Movement
 
@@ -330,7 +332,7 @@ The mouse coordinates are extracted from `lParam`:
 
 The circle's center is updated using these coordinates, and the window is invalidated to display the circle at its new position.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🎯 Circle Click Detection
 
@@ -356,7 +358,7 @@ When the clicked pixel matches the lemon-yellow circle color and mouse-follow mo
 
 This demonstrates basic pixel-based interaction using Windows GDI.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🎵 Birthday Music Integration
 
@@ -390,7 +392,7 @@ This flag tracks whether music is currently enabled.
 
 The audio is loaded from an embedded application resource and played asynchronously in a continuous loop.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🖌️ Windows GDI Rendering
 
@@ -430,7 +432,7 @@ DrawText(
 
 The text color is black, and the text background color is lemon yellow.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📐 Window Resizing
 
@@ -458,7 +460,7 @@ circleCentreY = windowHeight / 2;
 
 This allows the initial circle position to adapt to the window's dimensions.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📋 Message Handling Summary
 
@@ -474,7 +476,7 @@ This allows the initial circle position to adapt to the window's dimensions.
 | `WM_TIMER` | Triggers periodic animation updates |
 | `WM_DESTROY` | Initiates application termination |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🧩 Important Win32 APIs
 
@@ -496,7 +498,7 @@ This allows the initial circle position to adapt to the window's dimensions.
 | `DestroyWindow()` | Destroys a window |
 | `PostQuitMessage()` | Requests message loop termination |
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📂 Repository Structure
 
@@ -511,7 +513,7 @@ MiniProject/
 
 *The exact filenames and resource organization may vary depending on the Visual Studio project configuration.*
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🛠️ Technologies Used
 
@@ -524,7 +526,7 @@ MiniProject/
 - Visual Studio
 - Windows Desktop Application Development
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ▶️ Getting Started
 
@@ -552,7 +554,7 @@ The source includes:
 
 which automatically links the multimedia library when using a compatible Microsoft toolchain.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🎯 Learning Objectives
 
@@ -571,7 +573,7 @@ Through this mini project, I aim to:
 - Handle dynamic window resizing.
 - Understand the relationship between `WM_TIMER`, `InvalidateRect()`, and `WM_PAINT`.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🚀 Future Enhancements
 
@@ -588,7 +590,7 @@ Possible improvements include:
 - Improve rendering performance.
 - Explore more advanced GDI and Win32 programming techniques.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🤝 Contributions
 
@@ -596,13 +598,13 @@ This project is primarily developed as a learning-oriented mini project to explo
 
 Suggestions, improvements, and alternative implementations are welcome.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ⭐ Support
 
 If you find this project useful for learning Windows development, consider giving the repository a star.
 
----
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 👨‍💻 Author
 
@@ -613,3 +615,5 @@ Software Engineer | C++ | System Programming | Windows Development
 Passionate about systems programming, Windows development, software engineering, and continuous learning through practical implementation.
 
 > *"Learning Windows Development one program at a time."*
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
