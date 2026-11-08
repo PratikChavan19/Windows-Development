@@ -1,0 +1,3 @@
+#include "Window.h"
+
+GOAT_ICON ICON GokuIcon.ico
